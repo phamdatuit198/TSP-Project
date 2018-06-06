@@ -1,5 +1,5 @@
 /*
- Author: Dan Mitu, Daniel Jarc
+ Author: Dan Mitu, Daniel Jarc, Dat Pham
 		
  CS 325
  Spring 2018
