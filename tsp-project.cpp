@@ -156,9 +156,9 @@ int main(int argc,char *argv[])
     //Write to the find
     strcat(fileName, ".tour");
     writeFile = fopen(fileName,"w+");
-    fprintf(writeFile, "%d",cost);
+    fprintf(writeFile, "%d\n",cost);
     for(int i=0;i<sizeCity;i++){
-        fprintf(writeFile, "\n%d",visited[i]);
+        fprintf(writeFile, "%d\n",visited[i]);
     }
     
     clock_t clock_end = clock();
